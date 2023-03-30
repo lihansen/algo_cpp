@@ -21,7 +21,7 @@ struct ListNode {
 
 ListNode *reverseList(ListNode *head);
 
-void llOutput(ListNode *head);
+void printLinkList(ListNode *head);
 
 ListNode *createList(vector<int> v);
 
