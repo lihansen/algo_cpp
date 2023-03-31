@@ -31,12 +31,7 @@ void QuickSort_recur(int A[], int low, int high) {
 }
 
 
-// iterate version
-struct Range {
-    int start, end;
 
-    Range(int s = 0, int e = 0) { start = s, end = e; }
-};
 
 
 // 声明一个结构体 Range，用于记录排序范围
