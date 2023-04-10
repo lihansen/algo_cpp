@@ -13,6 +13,15 @@ int main() {
 //    auto res = addBinary("101", "1");
 //    auto res = My_addBinary("111", "1");
 //    cout<<res;
+    int a[5] = {1,4,5,3,2};
+
+    merge_sort(a, 0, 4);
+    for(int i =0;i<5;i++){
+        cout<<a[i]<<endl;
+    }
+
+
+
 
 
 //    test_ReverseList();

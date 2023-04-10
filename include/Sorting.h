@@ -5,6 +5,10 @@
 #ifndef ALGO_CPP_SORTING_H
 #define ALGO_CPP_SORTING_H
 
+void merge(int *, int , int *, int, int*);
+void merge(int *, int, int, int);
+void merge_sort(int *, int, int);
+
 
 void QuickSort_recur(int A[], int low, int high);
 
