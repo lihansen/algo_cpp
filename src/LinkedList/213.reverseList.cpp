@@ -7,6 +7,7 @@
 
 using namespace std;
 
+// two pointer, iteration
 ListNode *reverseList(ListNode *head) {
     ListNode *prev = nullptr;
     ListNode *curr = head;
@@ -20,6 +21,7 @@ ListNode *reverseList(ListNode *head) {
     return prev;
 }
 
+// recursion
 ListNode *reverseListRecur(ListNode *head){
     if (head == nullptr || head->next == nullptr){
         return head;
@@ -31,11 +33,3 @@ ListNode *reverseListRecur(ListNode *head){
 }
 
 
-void test_ReverseList(){
-    vector<int> v = {1,2,3,4,5};
-    ListNode *input = createList(v);
-    printLinkList(input);
-    ListNode *output = reverseListRecur(input);
-    printLinkList(input);
-    printLinkList(output);
-}

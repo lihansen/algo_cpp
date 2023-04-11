@@ -12,6 +12,10 @@ void merge_sort(int *, int, int);
 
 void QuickSort_recur(int A[], int low, int high);
 
+void heap_sort(int*, int);
+
+
+
 //template<typename T>
 //void QuickSort_iter(T arr[], const int len);
 

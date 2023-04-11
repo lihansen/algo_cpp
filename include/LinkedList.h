@@ -19,12 +19,16 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+
+
 ListNode *reverseList(ListNode *head);
 
 void printLinkList(ListNode *head);
 
 ListNode *createList(vector<int> v);
 
-void test_ReverseList();
+ListNode * reverseListRecur(ListNode *);
+
+
 
 #endif //ALGO_CPP_LINKEDLIST_H
