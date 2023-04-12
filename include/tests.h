@@ -11,6 +11,19 @@ void test_ReverseList();
 void test_23();
 
 void test_STDStack();
+void test_32();
+
+void test_buildHeapInPlace();
+void test_215_Heap();
+
+void test_QSelection();
+void test_KthLargest();
+
+
+
+
+
+
 
 
 #endif //ALGO_CPP_TESTS_H

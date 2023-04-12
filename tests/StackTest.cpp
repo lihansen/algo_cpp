@@ -5,6 +5,14 @@
 
 using namespace std;
 
+void test_32(){
+    string s1 = "(()";
+    string s2 = ")()())";
+    auto res = longestValidParentheses(s2);
+    cout<<res<<endl;
+}
+
+
 void test_STDStack() {
     std::stack<int> s1;
     s1.push(1);

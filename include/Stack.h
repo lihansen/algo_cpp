@@ -6,7 +6,9 @@
 #define ALGO_CPP_STACK_H
 #include <iostream>
 #include <stack>
+#include <string>
 
+int longestValidParentheses(std::string);
 
 
 #endif //ALGO_CPP_STACK_H

@@ -30,5 +30,15 @@ add_executable(
         src/Sorting/HeapSort.cpp
         src/Heap/23.mergeKSortedLists.cpp
         tests/LLtest.cpp
-        include/tests.h tests/HeapTest.cpp tests/StackTest.cpp include/Stack.h)
+        include/tests.h
+        tests/HeapTest.cpp
+        tests/StackTest.cpp
+        include/Stack.h
+        src/Stack/32.LongestValidParentheses.cpp
+        src/Heap/215.KthLargest_Heap.cpp
+        src/QuickSelection/QuickSelection.cpp
+        include/QuickSelection.h
+
+
+        tests/QSelectionTest.cpp src/QuickSelection/215.KthLargestElemQSelect.cpp)
 

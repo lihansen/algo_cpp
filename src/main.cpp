@@ -28,7 +28,10 @@ int main() {
 
 //    test_ReverseList();
 
-//    int a [5] = {5, 6, 8,7, 0};
+    int a [5] = {5, 6, 8,7, 0};
+    vector<int> v = { 5, 6, 8, 7, 0};
+    cout <<&v[0]<<endl;
+//    cout <<v.end()<<endl;
 //    QuickSort_iter(a, 5);
 //    for (int i=0;i<5;i++){
 //        cout<< a[i] << " ";
@@ -36,9 +39,13 @@ int main() {
 
 //    test_23();
 
-    test_STDStack();
+//    test_STDStack();
+//    test_32();
+//    test_buildHeapInPlace();
+//    test_215_Heap();
+//    test_QSelection();
 
-
+    test_KthLargest();
 
     return 0;
 }
