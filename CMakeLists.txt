@@ -45,5 +45,5 @@ add_executable(
         src/Tree/Tree.cpp
         include/Tree.h
         tests/StringTest.cpp
-        tests/TreeTest.cpp)
+        tests/TreeTest.cpp src/Tree/114.FlattenBinTree.cpp)
 

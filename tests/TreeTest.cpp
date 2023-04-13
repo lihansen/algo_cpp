@@ -14,4 +14,18 @@ void test_TreeUtil() {
 
 }
 
+void test_construBTree(){
+    vector<string> s = {"1", "2", "5", "3", "4", "null", "6"};
+    auto root = construct_BTree(s);
+    print_Tree_level(root);
+}
+
+
+void test_FlattenBTree(){
+    vector<string> s = {"1", "2", "5", "3", "4", "null", "6"};
+    auto root = construct_BTree(s);
+    flatten(root);
+    print_Tree_level(root);
+}
+
 #endif //ALGO_CPP_TREETEST_CPP

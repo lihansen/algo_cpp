@@ -1,9 +1,5 @@
 #include <iostream>
 #include <vector>
-#include "../include/LinkedList.h"
-#include "../include/Sorting.h"
-#include "../include/String.h"
-#include "../include/Heap.h"
 #include "../include/tests.h"
 using namespace std;
 
@@ -28,9 +24,9 @@ int main() {
 
 //    test_ReverseList();
 
-    int a [5] = {5, 6, 8,7, 0};
-    vector<int> v = { 5, 6, 8, 7, 0};
-    cout <<&v[0]<<endl;
+//    int a [5] = {5, 6, 8,7, 0};
+//    vector<int> v = { 5, 6, 8, 7, 0};
+//    cout <<&v[0]<<endl;
 
 //    cout <<v.end()<<endl;
 //    QuickSort_iter(a, 5);
@@ -48,6 +44,9 @@ int main() {
 
 //    test_KthLargest();
 //    test_stoi();
-    test_TreeUtil();
-    return 0;
+//    test_TreeUtil();
+    test_FlattenBTree();
+//    test_construBTree();
+
+return 0;
 }

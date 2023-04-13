@@ -8,6 +8,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+
 using namespace std;
 
 //  Definition for a binary tree node.
@@ -23,7 +24,11 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-TreeNode * construct_binTree_level(vector<string> );
-void print_Tree_level(TreeNode * root);
+TreeNode *construct_binTree_level(vector<string>);
 
+void print_Tree_level(TreeNode *root);
+
+void flatten(TreeNode *);
+
+TreeNode * construct_BTree(vector <string> );
 #endif //ALGO_CPP_TREE_H
