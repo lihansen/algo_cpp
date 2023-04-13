@@ -18,6 +18,7 @@
 │   ├── Sorting.h
 │   ├── Stack.h
 │   ├── String.h
+│   ├── Tree.h
 │   └── tests.h
 ├── src
 │   ├── Heap
@@ -39,12 +40,17 @@
 │   ├── String
 │   │   ├── 38.count_and_say.cpp
 │   │   └── 67.add_binary.cpp
+│   ├── Tree
+│   │   ├── 114.FlattenBinTree.cpp
+│   │   └── Tree.cpp
 │   └── main.cpp
 └── tests
     ├── HeapTest.cpp
     ├── LLTest.cpp
     ├── QSelectionTest.cpp
-    └── StackTest.cpp
+    ├── StackTest.cpp
+    ├── StringTest.cpp
+    └── TreeTest.cpp
 
 
 ```
