@@ -19,7 +19,9 @@ void test_215_Heap();
 void test_QSelection();
 void test_KthLargest();
 
+void test_stoi();
 
+void test_TreeUtil();
 
 
 

@@ -40,5 +40,10 @@ add_executable(
         include/QuickSelection.h
 
 
-        tests/QSelectionTest.cpp src/QuickSelection/215.KthLargestElemQSelect.cpp)
+        tests/QSelectionTest.cpp
+        src/QuickSelection/215.KthLargestElemQSelect.cpp
+        src/Tree/Tree.cpp
+        include/Tree.h
+        tests/StringTest.cpp
+        tests/TreeTest.cpp)
 

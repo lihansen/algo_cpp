@@ -8,9 +8,9 @@
 #include <queue>
 #include "LinkedList.h"
 
-void left_child(int);
-void right_child(int);
-void get_parent(int);
+int left_child(int);
+int right_child(int);
+int get_parent(int);
 
 void max_heapify(int*, int, int);
 
