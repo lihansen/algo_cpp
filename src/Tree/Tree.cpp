@@ -10,18 +10,18 @@
 using namespace std;
 
 
-TreeNode *helper2(vector<string> vals, int index) {
+TreeNode *helper(vector<string> vals, int index) {
     if (index < vals.size() and vals[index] != "null") {
         TreeNode *node = new TreeNode(stoi(vals[index]));
-        node->left = helper2(vals, left_child(index));
-        node->right = helper2(vals, right_child(index));
+        node->left = helper(vals, left_child(index));
+        node->right = helper(vals, right_child(index));
         return node;
     }
     return nullptr;
 }
 
 TreeNode *construct_BTree(vector<string> vals) {
-    return helper2(vals, 0);
+    return helper(vals, 0);
 }
 
 
@@ -51,7 +51,7 @@ TreeNode *construct_binTree_level(vector<string> vals) {
     }
 }
 
-// in level order
+// level order
 //
 void print_Tree_level(TreeNode *root) {
     queue<TreeNode *> q;

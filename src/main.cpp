@@ -45,8 +45,9 @@ int main() {
 //    test_KthLargest();
 //    test_stoi();
 //    test_TreeUtil();
-    test_FlattenBTree();
+//    test_FlattenBTree();
 //    test_construBTree();
+    test_SelectionSort();
 
 return 0;
 }

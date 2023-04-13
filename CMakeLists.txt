@@ -38,12 +38,11 @@ add_executable(
         src/Heap/215.KthLargest_Heap.cpp
         src/QuickSelection/QuickSelection.cpp
         include/QuickSelection.h
-
-
         tests/QSelectionTest.cpp
         src/QuickSelection/215.KthLargestElemQSelect.cpp
         src/Tree/Tree.cpp
         include/Tree.h
         tests/StringTest.cpp
-        tests/TreeTest.cpp src/Tree/114.FlattenBinTree.cpp)
+        tests/TreeTest.cpp
+        src/Tree/114.FlattenBinTree.cpp src/Sorting/SelecttionSort.cpp tests/SortingTest.cpp)
 
