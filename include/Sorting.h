@@ -16,6 +16,9 @@ void selectionSort(int*, int);
 
 void heap_sort(int*, int);
 
+void bubbleSort(int * , int );
+
+void InsertionSort(int *, int);
 
 
 //template<typename T>

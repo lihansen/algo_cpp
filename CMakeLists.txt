@@ -44,5 +44,8 @@ add_executable(
         include/Tree.h
         tests/StringTest.cpp
         tests/TreeTest.cpp
-        src/Tree/114.FlattenBinTree.cpp src/Sorting/SelecttionSort.cpp tests/SortingTest.cpp)
+        src/Tree/114.FlattenBinTree.cpp
+        src/Sorting/SelectionSort.cpp
+        tests/SortingTest.cpp
+        src/Sorting/BubbleSort.cpp src/Sorting/InsertionSort.cpp)
 

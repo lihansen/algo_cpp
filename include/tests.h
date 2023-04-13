@@ -26,7 +26,8 @@ void test_TreeUtil();
 void test_FlattenBTree();
 void test_construBTree();
 void test_SelectionSort();
-
+void test_bubbleSort();
+void test_InsertionSort();
 
 
 

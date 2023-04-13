@@ -47,7 +47,19 @@ int main() {
 //    test_TreeUtil();
 //    test_FlattenBTree();
 //    test_construBTree();
-    test_SelectionSort();
+//    test_SelectionSort();
+//    test_bubbleSort();
+    test_InsertionSort();
+
+
+
+
+
+
+
+
+
 
 return 0;
+
 }
