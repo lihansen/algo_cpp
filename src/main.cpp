@@ -49,9 +49,9 @@ int main() {
 //    test_construBTree();
 //    test_SelectionSort();
 //    test_bubbleSort();
-    test_InsertionSort();
+//    test_InsertionSort();
 
-
+    test_validBST();
 
 
 

@@ -47,5 +47,5 @@ add_executable(
         src/Tree/114.FlattenBinTree.cpp
         src/Sorting/SelectionSort.cpp
         tests/SortingTest.cpp
-        src/Sorting/BubbleSort.cpp src/Sorting/InsertionSort.cpp)
+        src/Sorting/BubbleSort.cpp src/Sorting/InsertionSort.cpp src/Graph/Graph.cpp include/Graph.h src/Tree/BST.cpp src/Tree/BST/98.isValidBST.cpp tests/BSTTest.cpp)
 

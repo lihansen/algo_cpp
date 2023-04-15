@@ -24,6 +24,11 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+struct BST{
+
+};
+
+
 TreeNode *construct_binTree_level(vector<string>);
 
 void print_Tree_level(TreeNode *root);
@@ -31,4 +36,15 @@ void print_Tree_level(TreeNode *root);
 void flatten(TreeNode *);
 
 TreeNode * construct_BTree(vector <string> );
+
+bool isValidBST(TreeNode* );
+
+
+
+
+
+
+
 #endif //ALGO_CPP_TREE_H
+
+
