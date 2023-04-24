@@ -8,7 +8,7 @@ void InsertionSort(int *a, int n){
     for(int i = 1; i<n; i++){
         int key = a[i]; // take this elem for insertion
         int j;
-        for(j = i - 1; j >=0 and key < a[j]; j --) // find the position that small enough
+        for(j = i - 1; j >=0 and key < a[j]; j --) // findRoot the position that small enough
             a[j+1] = a[j];
         a[j+1] = key; // put the key here
     }

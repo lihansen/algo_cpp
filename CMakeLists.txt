@@ -19,7 +19,9 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 add_executable(
-        algo_cpp src/main.cpp
+        algo_cpp
+        src/main/main.cpp
+
         src/LinkedList/LinkedList.cpp
         src/LinkedList/213.reverseList.cpp
         src/Sorting/QuickSort.cpp
@@ -29,23 +31,38 @@ add_executable(
         src/Heap/MyHeap.cpp
         src/Sorting/HeapSort.cpp
         src/Heap/23.mergeKSortedLists.cpp
-        tests/LLtest.cpp
-        include/tests.h
-        tests/HeapTest.cpp
-        tests/StackTest.cpp
+        test/LLtest.cpp
+#        include/tests.h
+        test/HeapTest.cpp
+        test/StackTest.cpp
         include/Stack.h
         src/Stack/32.LongestValidParentheses.cpp
         src/Heap/215.KthLargest_Heap.cpp
         src/QuickSelection/QuickSelection.cpp
         include/QuickSelection.h
-        tests/QSelectionTest.cpp
+        test/QSelectionTest.cpp
         src/QuickSelection/215.KthLargestElemQSelect.cpp
         src/Tree/Tree.cpp
         include/Tree.h
-        tests/StringTest.cpp
-        tests/TreeTest.cpp
+        test/StringTest.cpp
+        test/TreeTest.cpp
         src/Tree/114.FlattenBinTree.cpp
         src/Sorting/SelectionSort.cpp
-        tests/SortingTest.cpp
-        src/Sorting/BubbleSort.cpp src/Sorting/InsertionSort.cpp src/Graph/Graph.cpp include/Graph.h src/Tree/BST.cpp src/Tree/BST/98.isValidBST.cpp tests/BSTTest.cpp)
+        test/SortingTest.cpp
+        src/Sorting/BubbleSort.cpp
+        src/Sorting/InsertionSort.cpp
+        src/Graph/Graph.cpp
+        include/Graph.h
+        src/Tree/BST.cpp
+        src/Tree/BST/98.isValidBST.cpp
+        test/BSTTest.cpp
+        src/Graph/797.AllPathFromStoT.cpp
+        test/src/Graph.cpp
+        src/Graph/207.CourseSchedule.cpp
+
+
+        test/include/test.h
+        src/Graph/210.CourseScheII.cpp
+        include/UnionFind.h
+        src/Array/DistinctSubarray.cpp include/Array.h test/src/Array.cpp src/UnionFind/UnionFind.cpp)
 

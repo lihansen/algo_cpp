@@ -1,11 +1,15 @@
 #include <iostream>
 #include <vector>
-#include "../include/tests.h"
+//#include "../include/tests.h"
+#include "../../test/include/test.h"
+
 using namespace std;
 
 
 int main() {
-    std::cout << "testing..." << std::endl;
+    test();
+
+//    std::cout << "testing..." << std::endl;
 //    cout<<std::isupper('3');
 
 //    auto res = addBinary("101", "1");
@@ -51,15 +55,14 @@ int main() {
 //    test_bubbleSort();
 //    test_InsertionSort();
 
-    test_validBST();
+//    test_validBST();
+//    test_797();
+//    test_207();
 
 
 
 
 
-
-
-
-return 0;
+    return 0;
 
 }

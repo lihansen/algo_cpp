@@ -4,19 +4,22 @@
 
 #ifndef ALGO_CPP_SORTING_H
 #define ALGO_CPP_SORTING_H
+
 #include<iostream>
+
 void merge(int *, int, int, int);
+
 void merge_sort(int *, int, int);
 
+int Partition(int *, int, int);
 
-int Partition(int *, int, int );
 void QuickSort_recur(int A[], int low, int high);
 
-void selectionSort(int*, int);
+void selectionSort(int *, int);
 
-void heap_sort(int*, int);
+void heap_sort(int *, int);
 
-void bubbleSort(int * , int );
+void bubbleSort(int *, int);
 
 void InsertionSort(int *, int);
 
@@ -28,7 +31,7 @@ void InsertionSort(int *, int);
 struct Range {
     int start;  // 范围起始下标
     int end;    // 范围终止下标
-    Range(int s = 0, int e = 0): start(s), end(e) {}
+    Range(int s = 0, int e = 0) : start(s), end(e) {}
 };
 
 // 快速排序函数，使用迭代实现

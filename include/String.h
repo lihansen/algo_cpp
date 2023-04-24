@@ -12,6 +12,7 @@ using namespace std;
 string countAndSay(int n);
 
 string addBinary(string a, string b);
+
 string My_addBinary(string a, string b);
 
 #endif //ALGO_CPP_STRING_H

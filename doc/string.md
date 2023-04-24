@@ -1,6 +1,6 @@
 ```c++
 // indexing
-string.at(i); // find the i index char in this sting
+string.at(i); // findRoot the i index char in this sting
 
 // reverse
 reverse(s.begin(), s.end());

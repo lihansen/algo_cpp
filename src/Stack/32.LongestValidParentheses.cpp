@@ -10,7 +10,7 @@ int longestValidParentheses(string s){
 
     stk.push(-1); // assume there is a ")" indexing with -1 before the start of the string
 
-    for (int i = 0;i < s.size(); i++){ // find the last unmatched right bracket ")"
+    for (int i = 0;i < s.size(); i++){ // findRoot the last unmatched right bracket ")"
         if (s.at(i) == '('){
             stk.push(i); // any "(" push it into the stack
         }else{
@@ -20,7 +20,7 @@ int longestValidParentheses(string s){
                 stk.push(i);
             }else{
                 max_len = std::max(max_len, i - stk.top()); // the current ")" - the index of last unmatched ")"
-                                                            // is the length of the valid clause, such as )"()()"
+                                                            // is the length of the hasCycle clause, such as )"()()"
             }
         }
     }
