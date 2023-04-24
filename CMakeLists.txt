@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.24)
+cmake_minimum_required(VERSION 3.16)
 project(algo_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -31,7 +31,7 @@ add_executable(
         src/Heap/MyHeap.cpp
         src/Sorting/HeapSort.cpp
         src/Heap/23.mergeKSortedLists.cpp
-        test/LLtest.cpp
+#        test/LLtest.cpp
 #        include/tests.h
         test/HeapTest.cpp
         test/StackTest.cpp

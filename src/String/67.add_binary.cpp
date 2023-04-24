@@ -5,6 +5,8 @@
 //#include "../../include/_67_add_binary.h"
 #include <string>
 #include <iostream>
+#include <algorithm>
+
 using namespace std;
 string My_addBinary(string a, string b){
     string res;
