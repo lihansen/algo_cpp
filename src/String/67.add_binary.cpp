@@ -43,7 +43,7 @@ string My_addBinary(string a, string b){
 }
 
 
-
+// leetcode solution
 string addBinary(string a, string b) {
     string ans;  // 存储二进制数相加后的结果
     reverse(a.begin(), a.end());  // 将 a 字符串翻转

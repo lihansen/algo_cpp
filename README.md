@@ -12,6 +12,7 @@
 │   ├── string.md
 │   └── vector.md
 ├── include
+│   ├── Array.h
 │   ├── Graph.h
 │   ├── Heap.h
 │   ├── LinkedList.h
@@ -20,9 +21,14 @@
 │   ├── Stack.h
 │   ├── String.h
 │   ├── Tree.h
-│   └── tests.h
+│   └── UnionFind.h
 ├── src
+│   ├── Array
+│   │   └── DistinctSubarray.cpp
 │   ├── Graph
+│   │   ├── 207.CourseSchedule.cpp
+│   │   ├── 210.CourseScheII.cpp
+│   │   ├── 797.AllPathFromStoT.cpp
 │   │   └── Graph.cpp
 │   ├── Heap
 │   │   ├── 215.KthLargest_Heap.cpp
@@ -32,28 +38,6 @@
 │   │   ├── 213.reverseList.cpp
 │   │   └── LinkedList.cpp
 │   ├── QuickSelection
-│   │   ├── 215.KthLargestElemQSelect.cpp
-│   │   └── QuickSelection.cpp
-│   ├── Sorting
-│   │   ├── BubbleSort.cpp
-│   │   ├── HeapSort.cpp
-│   │   ├── InsertionSort.cpp
-│   │   ├── MergeSort.cpp
-│   │   ├── QuickSort.cpp
-│   │   └── SelectionSort.cpp
-│   ├── Stack
-│   │   └── 32.LongestValidParentheses.cpp
-│   ├── String
-│   │   ├── 38.count_and_say.cpp
-│   │   └── 67.add_binary.cpp
-│   ├── Tree
-│   │   ├── 114.FlattenBinTree.cpp
-│   │   ├── BST
-│   │   │   └── 98.isValidBST.cpp
-│   │   ├── BST.cpp
-│   │   └── Tree.cpp
-│   └── main.cpp
-└── tests
     ├── BSTTest.cpp
     ├── HeapTest.cpp
     ├── LLTest.cpp
@@ -61,7 +45,12 @@
     ├── SortingTest.cpp
     ├── StackTest.cpp
     ├── StringTest.cpp
-    └── TreeTest.cpp
+    ├── TreeTest.cpp
+    ├── include
+    │   └── test.h
+    └── src
+        ├── Array.cpp
+        └── Graph.cpp
 
 ```
 
