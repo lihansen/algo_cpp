@@ -17,7 +17,7 @@ using namespace std;
 //int countDistinctSubarrays(const std::vector<int>& arr) {
 //    int n = arr.size();
 //    std::unordered_map<int, int> freq;
-//    int count = 0;
+//    int _count = 0;
 //    int left = 0, right = 0;
 //
 //
@@ -32,15 +32,15 @@ using namespace std;
 //        }
 //
 //        if (freq.size() == (right - left + 1)) {
-//            count++;
+//            _count++;
 //        }
 //        right++;
 //    }
-//    return count;
+//    return _count;
 //}
 //int main() {
 //    std::vector<int> arr = {2, 1, 3, 3,1,2};
-//    int count = countDistinctSubarrays(arr);
-//    std::cout << "Total number of sub-arrays with distinct elements: " << count << std::endl;
+//    int _count = countDistinctSubarrays(arr);
+//    std::cout << "Total number of sub-arrays with distinct elements: " << _count << std::endl;
 //    return 0;
 //}

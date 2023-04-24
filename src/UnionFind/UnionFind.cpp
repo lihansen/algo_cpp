@@ -4,7 +4,7 @@
 #include "../../include/UnionFind.h"
 
 UnionFind::UnionFind(int n) {
-    this->count = n;
+    this->_count = n;
     parent.resize(n);
 
     for (int i = 0; i < n; i++) { // the parent of each root node is itself.
@@ -30,8 +30,19 @@ void UnionFind::unite(int p, int q) {
     int rootQ = findRoot(q);
     if (rootP != rootQ) {
         parent[rootP] = rootQ;
-        count--;
+        _count--;
     }
+}
+
+int UnionFind::count() {
+    return this->_count;
+}
+
+void UnionFind::print_parent() {
+    for (auto &x: this->parent) {
+        cout << x << " ";
+    }
+    cout << endl;
 }
 
 

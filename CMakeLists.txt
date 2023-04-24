@@ -64,5 +64,12 @@ add_executable(
         test/include/test.h
         src/Graph/210.CourseScheII.cpp
         include/UnionFind.h
-        src/Array/DistinctSubarray.cpp include/Array.h test/src/Array.cpp src/UnionFind/UnionFind.cpp)
+        src/Array/DistinctSubarray.cpp
+        include/Array.h
+        test/src/Array.cpp
+        src/UnionFind/UnionFind.cpp
+        test/src/UnionFind.cpp
+
+
+)
 

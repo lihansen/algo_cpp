@@ -14,7 +14,7 @@ using namespace std;
 class UnionFind {
 private:
     vector<int> parent;
-    int count;
+    int _count;
 
 public:
 
@@ -25,6 +25,10 @@ public:
     bool isConnected(int p, int q);
 
     void unite(int p, int q);
+
+    int count();
+
+    void print_parent();
 };
 
 

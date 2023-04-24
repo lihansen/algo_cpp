@@ -41,6 +41,8 @@ void test_207();
 void test_210();
 void test_topo();
 void test_dinstSubArray();
+void test_UF();
+
 
 
 void test() {
@@ -48,8 +50,9 @@ void test() {
 
 //    test_207();
 //    test_210();
-    test_topo();
+//    test_topo();
 //    test_dinstSubArray();
+    test_UF();
 };
 
 

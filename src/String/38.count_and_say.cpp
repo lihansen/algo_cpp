@@ -8,7 +8,7 @@ using namespace std;
 string countAndSay(int n) {
     if (n == 1)return "1";
     else{
-        string say = countAndSay(n-1); // recursion, count the child n-1 string
+        string say = countAndSay(n-1); // recursion, _count the child n-1 string
         string res = "";
         for (int i=0; i<say.size(); i++){
             int count = 0;
