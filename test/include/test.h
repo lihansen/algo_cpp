@@ -42,9 +42,9 @@ void test_210();
 void test_topo();
 void test_dinstSubArray();
 void test_UF();
-
-
-
+void test_36();
+void test_17();
+void test_11();
 void test() {
     cout << "testing..." << endl;
 
@@ -52,7 +52,10 @@ void test() {
 //    test_210();
 //    test_topo();
 //    test_dinstSubArray();
-    test_UF();
+//    test_UF();
+//    test_36();
+//    test_17();
+    test_11();
 };
 
 

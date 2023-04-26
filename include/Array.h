@@ -6,6 +6,9 @@
 #define ALGO_CPP_ARRAY_H
 
 #include <iostream>
+#include <unordered_set>
+#include <string>
+#include <vector>
 using namespace std;
 
 /******************************************************************************
@@ -15,6 +18,6 @@ using namespace std;
 Write your code in this editor and press "Run" button to compile and execute it.
 
 *******************************************************************************/
-
-
+bool isValidSudoku(vector<vector<char>>& board);
+int maxArea(vector<int> &height) ;
 #endif //ALGO_CPP_ARRAY_H

@@ -71,5 +71,5 @@ add_executable(
         test/src/UnionFind.cpp
 
 
-)
+        src/Array/36.ValidSudoku.cpp include/BackTracking.h src/BackTracking/17.LetterCombinPhone.cpp test/src/BackTracking.cpp src/Array/11.ContainerMostWater.cpp)
 
